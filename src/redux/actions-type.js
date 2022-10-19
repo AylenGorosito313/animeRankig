@@ -1,0 +1,7 @@
+export const GET_ANIMES = "GET_ANIMES";
+export const GET_ANIMES_DETAIL = "GET_ANIMES_DETAIL";
+export const CLEAN_DETAIL = "CLEAN_DETAIL";
+export const ADD_ANIME_FAV = "ADD_ANIME_FAV";
+export const DELETE_ANIME = "DELETE_ANIME";
+export const RANKING_ANIME= "RANKING_ANIME";
+export const GET_EPISODIES= "GET_EPISODIES";
