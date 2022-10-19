@@ -13,7 +13,7 @@ function Nav (){
         <AnimeRankLogo/>
         
         <A>
-        <LinkContainer to={'/home'}>
+        <LinkContainer to={'/'}>
         Home
         </LinkContainer>
         </A> 

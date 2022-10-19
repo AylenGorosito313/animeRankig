@@ -33,6 +33,7 @@ const handler_delete = (id)=>{
       <Hr></Hr>
       <TituloCardA>Tus animes favoritos</TituloCardA>
       <Div_gral>
+      
         {Fav?.map((fav) => {
           console.log(fav.mal_id.toString());
           return (

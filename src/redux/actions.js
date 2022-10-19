@@ -9,6 +9,12 @@ import {
   GET_EPISODIES
 } from "./actions-type";
 
+
+
+
+
+
+
 export const getAllAnimes = (titulo) => {
   return function (dispatch) {
     return fetch(`https://api.jikan.moe/v4/anime?q=${titulo}&sfw`)

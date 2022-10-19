@@ -105,7 +105,18 @@ align-items: flex-end;
 `
 export const Logo2 =styled.div`
 margin-top: 30px;
+@media(max-wight: 741px ){
+display:none;
 
+}
+
+`
+export const ImgLogo =styled.img`
+
+@media(max-wight: 741px ){
+display:none;
+
+}
 
 `
 
@@ -124,20 +135,19 @@ flex-wrap: wrap !important;
 
 export const ConteinerCard = styled.div`
 display:flex;
-width: 1500px;
 height: 1275px;
 left: 93px;
 top: 1431px; 
 flex-wrap: wrap;
 justify-content: center;
-margin-left:60px;
+
 `
 export const Card = styled.div`
 display: flex;
 flex-direction: column-reverse;
 
-height: 450px;
-width: 300px;;
+height: 400px;
+width: 250px;;
 margin-left: 100px;
 top: 74px;
 border-radius: 30px;
@@ -165,7 +175,8 @@ text-overflow: ellipsis;
 `
 
 export const Imagen= styled.img`
-
+height: 250px;
+width: 200px;;
 
 border-radius:20px;
 align-item: center;

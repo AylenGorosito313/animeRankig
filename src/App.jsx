@@ -18,7 +18,7 @@ function App() {
       <Route  path="/">
         <Nav />
       </Route>
-      <Route exact path="/home">
+      <Route exact path="/">
         <Home />
       </Route>
       <Route exact path="/rank">

@@ -33,7 +33,8 @@ text-overflow: ellipsis;
 
 export const Imagen= styled.img`
 
-
+height: 250px;
+width: 200px;;
 border-radius:20px;
 align-item: center;
 
@@ -51,8 +52,8 @@ align-items: center;
 display: flex;
 flex-direction: column-reverse;
 
-height: 450px;
-width: 300px;;
+height: 400px;
+width: 250px;;
 margin-left: 100px;
 top: 74px;
 border-radius: 30px;
@@ -148,7 +149,8 @@ justify-content: center;
 `
 
 export const Div_gral = styled.div`
-padding:30px;
+padding-right:40px;
+height: 1000px;
 flex-direction: row;
 display: flex;
 flex-wrap: wrap;
